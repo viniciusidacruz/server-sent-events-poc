@@ -5,3 +5,4 @@ pnpm-lock.yaml
 dist
 build
 output
+__tests__
