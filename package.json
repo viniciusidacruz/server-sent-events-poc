@@ -1,0 +1,29 @@
+{
+  "name": "server-sent-events-poc",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "type": "module",
+  "repository": "git@github.com:viniciusidacruz/server-sent-events-poc.git",
+  "author": "Vinicius Italo da Cruz",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup src/main.ts",
+    "start:dev": "tsx watch src/main.ts"
+  },
+  "engines": {
+    "node": "24.15.0",
+    "yarn": "1.22.22",
+    "pnpm": "please use yarn to install dependencies",
+    "bun": "please use yarn to install dependencies",
+    "npm": "please use yarn to install dependencies"
+  },
+  "devDependencies": {
+    "@types/node": "26.2.0",
+    "tsup": "8.5.1",
+    "tsx": "4.23.12",
+    "typescript": "7.0.2"
+  },
+  "dependencies": {
+    "fastify": "5.11.3"
+  }
+}
